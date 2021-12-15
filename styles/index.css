@@ -1,6 +1,8 @@
 body{
     height: 100%;
     width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
 }
 #maindiv{
     height: 100%;
@@ -11,12 +13,40 @@ body{
     width: 60px;
     
 }
+#hdiv{
+    background-color: rosybrown;
+}
 #cdiv img{
     height: 150px;
     width: 150px;
     
 }
+#cdiv{
+    height: 100%;
+    width: 100%;
+
+}
+#search{
+    height: 380px;
+    background: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card {
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+#card img{
+    padding: 4%;
+    border-radius: 25%;
+}
 #fdiv img{
     height: 20px;
     width: 22px;
+}
+#fdiv{
+    background-color: rosybrown;
 }

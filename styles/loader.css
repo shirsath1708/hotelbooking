@@ -1,0 +1,20 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+#laoder{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 12px ;
+    border-top: 12px solid #444444;
+    border-bottom:12px solid #f3f3f3;
+    border-left:12px solid #f3f3f3;
+    border-right:12px solid #f3f3f3;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}

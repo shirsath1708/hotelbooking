@@ -1,6 +1,8 @@
 body{
     height: 100%;
     width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
 }
 #maindiv{
     height: 100%;
@@ -17,4 +19,19 @@ body{
 #fdiv img{
     height: 20px;
     width: 22px;
+}
+#hdiv{
+    background-color: rosybrown;
+}
+#fdiv{
+    background-color: rosybrown;
+}
+#cdiv img{
+    margin: 2% 4% 0% 4%;
+}
+#cdiv form{
+    margin: 0% 4% 1% 4%;
+}
+#description{
+    margin: 1% 4% 2% 4%;
 }
