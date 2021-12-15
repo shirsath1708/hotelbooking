@@ -1,0 +1,20 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+#maindiv{
+    height: 100%;
+    width: 100%;
+}
+#hdiv  img{
+    height: 60px;
+    width: 60px;
+}
+#cdiv img{
+    height: 500px;
+    width: 500px;
+}
+#fdiv img{
+    height: 20px;
+    width: 22px;
+}
