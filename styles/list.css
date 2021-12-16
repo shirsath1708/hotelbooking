@@ -23,13 +23,74 @@ body{
     width: 22px;
 }
 #hdiv{
+    width: 100%;
     background-color: rosybrown;
+    position: fixed;
+    top: 0;
 }
 #fdiv{
     background-color: rosybrown;
+    width: 100%;
+   position: fixed;
+   bottom: 0;
 }
 .city{
     background-color: rgb(132,136,139);
     margin: 2%;
     width: 40%;
+    margin-bottom: 2%;
+    
+}
+#log{
+    
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+ }
+ a:link{
+    text-decoration: none;
+    color: black;
+}
+#contact{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+#text{
+    margin-left: 40%;
+    bottom: 0;
+}
+#social{
+    float: right;
+   margin-right: 20px;
+}
+#cdiv{
+    height: 120%;
+    width: 100%;
+    margin-top: 100px;
+  
+}
+#view{
+  margin-left:40%;
+  font-weight: bold;
+  text-decoration-color: black;
+  
+}
+.view{
+    padding: 20px;
+   
+}
+#city1{
+    float:left;
+}
+#city2{
+    float:left;
+}
+#city3{
+    float:left;
+}
+#map-view{
+    display: none;
 }

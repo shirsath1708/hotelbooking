@@ -22,9 +22,15 @@ body{
 }
 #hdiv{
     background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 #fdiv{
     background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 #hotel{
@@ -41,4 +47,34 @@ body{
      border: 1px solid black;
      border-radius: 5px;
      padding: 1% 2%;;
+}
+#log{
+    
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+#contact{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+#text{
+    margin-left: 40%;
+    bottom: 0;
+}
+#social{
+    float: right;
+   margin-right: 20px;
+}
+#cdiv{
+    height: 170%;
+    width: 100%;
+    margin-top: 100px;
+    
 }
