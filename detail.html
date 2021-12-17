@@ -1,44 +1,52 @@
 <html>
 <head>
     <link href="styles/detail.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 
     <body>
         <div id=maindiv>
-            <header>
-                <div id="hdiv">
+          
+                <div id="header">
                     <a href="index.html">
                     <img src="assests\images\logo.png" width="150px" height="200px" alt="logo">
                 </a>
-                    <div id="log"><a href="login.html" target="_blank">Login</a></div>
+                    <div id="log"><a href="login.html" target="_self">Login</a></div>
                    
                 </div>
                 
-            </header>
+            
             <div id="cdiv">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br/>
-                <form action="payment.html" method="get">
+                <div id="cdiv1">
+                <div id="img"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br/>
+                </div><div id="form">
+                    <form action="payment.html" method="get">
+                        <div class="rows">
+                            <div class="cols">
                     <label for="adults">Adults:</label>
-                    <input type="number" min="1" placeholder="1"/><br/>
+                    <input type="number" min="1" placeholder="1" class="input"/><br/><br/><br/></div>
 
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" required autocomplete="off"/><br/>
+                    <div class="cols"><label for="name">Name:</label>
+                    <input type="text" name="name" required autocomplete="off" class="input"/></div><br/><br/><br/>
 
-                    <label for="fromdate">From Date:</label>
-                    <input type="date" name="fromdate" required/><br/>
+                    <div class="cols"><label for="fromdate">From Date:</label>
+                    <input type="date" name="fromdate" required class="input"/></div><br/><br/><br/>
 
-                    <label for="todate">To Date:</label>
-                    <input type="date" name="todate" required/><br/>
+                    <div class="cols"><label for="todate">To Date:</label>
+                    <input type="date" name="todate" required class="input"/></div><br/><br/><br/>
 
-                    <label for="total">Total:</label>
-                    <input type="text" name="total" readonly /><br/>
-
-                    <input type="submit" value="Book Now"/>
-                </form><div id="description">
+                    <div class="cols"><label for="total">Total:</label>
+                    <input type="text" name="total" readonly  class="input"/></div><br/><br/><br/>
+                    <div class="cols">
+                    <input type="submit" id="submit" value="Book Now" class="input"/></div>
+                </div>
+                </form> </div></div><br/><br/>
+                <div id="description">
                 <h2>Radisson Blu Hotel</h2>
-                RATING<br/><br/>
+                <h5>RATING</h5><br/>
                 5 Star<br/><br/>
-                AMENITIES<br/>
+                <h5>AMENITIES</h5><br/>
                 <ul type="bullet">
                     <li>Room service</li>
                     <li>Restaurant</li>
@@ -50,9 +58,11 @@
                 jabi nkndnindnc cnsakncnisc cniniciwncos cnsnicncnsa cnnncndjka cnkcniano .s c s ckn    coscoa snc csncns cnosnc ,c casncoa ncasnocas csncsc. ccscncsc ccccncnaionofhnioef .cc icninnn.
             </div>
             </div>
-            <footer id="fdiv">
+            <div id="footer">
                 <div id="contact">
-                  <a href="contact.html" target="_blank">Contact Us</a></div><br/>
+                  <a href="contact.html" target="_blank">Contact Us</a></div>
+                  <div id="text"> © 2020 ROOM SEARCH PVT LTD</div>
+
                   <div id="social">
                   <a href="https://facebook.com" target="_blank">
                       <img src="assests/images/facebook.png" height="20px" width="22px">
@@ -62,11 +72,10 @@
                 </a>
                 <a href="https://twitter.com" target="_blank">
                     <img src="assests/images/twitter.png" height="20px" width="22px">
-                </a></div><br/>
-               <div id="text"> © 2020 ROOM SEARCH PVT LTD</div>
-
+                </a></div>
+              
                 </div>
-            </footer>
+           
 
         </div>
         

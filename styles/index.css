@@ -11,80 +11,148 @@ body{
     width: 100%;
     
 }
-#hdiv  img{
+#header  img{
     height: 60px;
     width: 60px;
-    margin-top: 1px;
-    
+    margin-left: 2%;
 }
-#hdiv{
+#header{
     width: 100%;
+    height: 10%;
     background-color: rosybrown;
     position: fixed;
     top: 0;
-}
-#cdiv img{
-    height: 150px;
-    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
+#header a{
+     margin-left: 85%;
+   
+}
+
 #cdiv{
-    height: 110%;
+    height: 120%;
     width: 100%;
     position:static;
     overflow: auto;
-    margin: 0 auto;
+   
+    
 
 }
 #search{
+    display:flex;
     height: 380px;
+    width: 100%;
     background: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
     
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
+    align-items: center;
+}
+input:focus{
+    outline: none;
 }
 #card {
-    margin-left: 15%;
-    margin-right: 15%;
+   /* margin-left: 15%;
+    margin-right: 15%;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     
 }
-#card img{
+   #img2, #img3, #img4{
+    height: 150px;
+    width: 150px;
     padding: 4%;
-    border-radius: 25%;
+    border-radius: 35%;
+    display: block;
+    position: relative;
+    box-shadow: 10px 10px 10px grey;
 }
-#fdiv img{
+
+#img1{
+    
+    padding: 4%;
+    border-radius: 30%;
+    display: block;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    box-shadow: 10px 10px 10px grey;
+}
+.con1{
+    position: relative;
+   
+    padding: 4%;
+    border-radius: 30%;
+    
+    
+}
+.overlay1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition:  .5s ease ;
+    background-color:rgba(0, 0, 0, 0.5) ;
+}
+.text2{
+    color: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    
+}
+.con1:hover .overlay1 {
+    opacity: 1;
+    transition:  .5s ease;
+}
+
+#footer img{
     height: 20px;
     width: 22px;
 }
-#fdiv{
+#footer{
     background-color: rosybrown;
    width: 100%;
    position: fixed;
    bottom: 0;
- 
+   display: flex;
+   justify-content: space-between;
+   height: 7%;
+   align-items: center;
+   
+   
 }
+
 #hdiv a{
     
    float: right;
    margin-top: 20px;
    margin-right: 20px;
-  
-   
+   margin: 2%;
 }
-#contact{
-    float: left;
+ #contact{
+    /*float: left;
     margin-top: 20px;
-    margin-left: 10px;
-   
+    margin-left: 10px;*/
+    margin: 2%;
 }
-#text{
-    margin-left: 40%;
-    bottom: 0;
-}
+
 #social{
-    float: right;
-   margin-right: 20px;
+    /*float: right;
+    margin-right: 20px;*/
+    margin: 2%;
 }
 a:link{
     text-decoration: none;

@@ -3,69 +3,76 @@ body{
     width: 100%;
     margin: 0%;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu',sans-serif;
 }
 #maindiv{
     height: 100%;
     width: 100%;
 }
-#hdiv  img{
-    height: 60px;
-    width: 60px;
-    
-}
+
 #list-view img{
     height: 200px;
     width: 250px;
     
 }
-#fdiv img{
-    height: 20px;
-    width: 22px;
-}
-#hdiv{
+
+#header{
     width: 100%;
+    height: 10%;
     background-color: rosybrown;
     position: fixed;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
 }
-#fdiv{
+#header  img{
+    height: 60px;
+    width: 60px;
+    margin-left: 2%;
+}
+#log{
+    margin: 2%;
+    
+}
+#footer{
     background-color: rosybrown;
     width: 100%;
-   position: fixed;
-   bottom: 0;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+    align-items: center;
+    
 }
+#footer img{
+    height: 20px;
+    width: 22px;
+}
+#contact{
+    margin: 2%;
+}
+
+#social{
+    margin: 2%;
+}
+
 .city{
-    background-color: rgb(132,136,139);
+    background-color: lightgrey;
     margin: 2%;
     width: 40%;
     margin-bottom: 2%;
+
     
 }
-#log{
-    
-    float: right;
-    margin-top: 20px;
-    margin-right: 20px;
-   
- }
+
  a:link{
     text-decoration: none;
     color: black;
 }
-#contact{
-    float: left;
-    margin-top: 20px;
-    margin-left: 10px;
-   
-}
-#text{
-    margin-left: 40%;
-    bottom: 0;
-}
-#social{
-    float: right;
-   margin-right: 20px;
-}
+
 #cdiv{
     height: 120%;
     width: 100%;
@@ -84,13 +91,22 @@ body{
 }
 #city1{
     float:left;
+    display: flex;
+    justify-content: flex-start;
 }
 #city2{
     float:left;
+    display: flex;
+    justify-content: flex-start;
 }
 #city3{
     float:left;
+    display: flex;
+    justify-content: flex-start;
 }
 #map-view{
     display: none;
+}
+.info{
+    margin-left: 15px;
 }

@@ -3,36 +3,60 @@ body{
     width: 100%;
     margin: 0%;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu',sans-serif;
 }
 #maindiv{
     height: 100%;
     width: 100%;
 }
-#hdiv  img{
-    height: 60px;
-    width: 60px;
-}
+
 #cdiv img{
     height: 500px;
     width: 500px;
 }
-#fdiv img{
-    height: 20px;
-    width: 22px;
-}
-#hdiv{
-    background-color: rosybrown;
+
+#header{
     width: 100%;
+    height: 10%;
+    background-color: rosybrown;
     position: fixed;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
 }
-#fdiv{
+#header  img{
+    height: 60px;
+    width: 60px;
+    margin-left: 2%;
+}
+#log{
+    margin: 2%;
+    
+}
+#footer{
     background-color: rosybrown;
     width: 100%;
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+    align-items: center;
+    
+}
+#footer img{
+    height: 20px;
+    width: 22px;
+}
+#contact{
+    margin: 2%;
 }
 
+#social{
+    margin: 2%;
+}
 #hotel{
   width: 50%;
     background-color: rgb(132,136,139);
@@ -44,37 +68,39 @@ body{
 }
 #bill{
      margin: 2%;
-     border: 1px solid black;
+     /*border: 1px solid black;*/
      border-radius: 5px;
      padding: 1% 2%;;
 }
-#log{
-    
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
-}
+
 a:link{
     text-decoration: none;
     color: black;
 }
-#contact{
-    float: left;
-    margin-top: 20px;
-    margin-left: 10px;
-   
-}
-#text{
-    margin-left: 40%;
-    bottom: 0;
-}
-#social{
-    float: right;
-   margin-right: 20px;
-}
+
 #cdiv{
-    height: 170%;
+    height: 120%;
     width: 100%;
     margin-top: 100px;
     
+}
+#hotel img{
+    height: 300px;
+    width: 270px;
+}
+#hotel{
+    display: flex;
+    justify-content: flex-start;
+}
+#con2{
+    background-color: rosybrown;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+b{
+    font-family: cursive;
 }
