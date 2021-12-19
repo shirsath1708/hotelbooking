@@ -33,7 +33,7 @@ body{
     width: 60px;
     margin-left: 2%;
 }
-#log{
+#but1{
     margin: 2%;
     
 }
@@ -98,6 +98,7 @@ a:link{
     justify-content: center;
 }
 #form{
+   
     padding: 20px;
     border: 1px solid black;
     border-left: transparent;
@@ -120,8 +121,10 @@ h5{
 #submit{
     padding: 10px;
     width: 100px;
-    margin-right: 175px ;
+    margin-right: 218px ;
+    float: right;
 }
+
 .rows{
     width: 100%;
     display: block;
@@ -130,12 +133,30 @@ h5{
     width: 100%;
     display: inline-block;
 }
-label{
+.label{
     width: 30%;
     float: left;
+    margin-left: 40px;
 }
-input{
-    width: 60%;
+.input{
+    width: 50%;
     float: right;
+    margin-right: 40px;
 }
+#log1{
+    margin: 0 auto;
+}
+    
+.label1{
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+    
+}
+.input1{
+    width: 50%;
+    float: right;
+    margin-right: 40px;
+}
+
     

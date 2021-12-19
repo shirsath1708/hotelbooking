@@ -25,24 +25,32 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    z-index: 1;
 }
-#header a{
-     margin-left: 85%;
+#but1{
+    margin: 2%;
+    /* margin-left: 85%;
+     float: right;
+     margin-top: 20px;
+     margin-right: 20px;
+     margin: 2%;*/
+    
    
 }
 
 #cdiv{
     height: 120%;
     width: 100%;
-    position:static;
+   /* position:static;*/
     overflow: auto;
+   z-index: -1;
    
     
 
 }
 #search{
     display:flex;
+   
     height: 380px;
     width: 100%;
     background: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
@@ -55,6 +63,7 @@ body{
 }
 input:focus{
     outline: none;
+   
 }
 #card {
    /* margin-left: 15%;
@@ -131,17 +140,11 @@ input:focus{
    justify-content: space-between;
    height: 7%;
    align-items: center;
-   
+   z-index: 2;
    
 }
 
-#hdiv a{
-    
-   float: right;
-   margin-top: 20px;
-   margin-right: 20px;
-   margin: 2%;
-}
+
  #contact{
     /*float: left;
     margin-top: 20px;
@@ -163,7 +166,7 @@ a:link{
     text-decoration-color: none black;
  
 }
-input{
+#input1{
     position:relative;
     border: 1px solid transparent;
     border-radius: 12px;
@@ -172,6 +175,28 @@ input{
     font-size: 16px;
     width: 30%;
     margin-top: 170px;
-    margin-left: 500px;
+    margin-left:500px;
 }
+.rows{
+    width: 100%;
+    display: block;
+}
+.cols{
+    width: 100%;
+    display: inline-block;
+}
+.label{
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+    
+}
+.input{
+    width: 50%;
+    float: right;
+    margin-right: 40px;
+}
+#log1{
+        margin: 0 auto;
+    }
  

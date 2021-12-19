@@ -2,7 +2,9 @@
 <head>
     <link href="styles/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
     <body>
@@ -10,15 +12,40 @@
            
                 <div id="header">
                     <img src="assests\images\logo.png" width="150px" height="200px" alt="logo">
-                   <a href="login.html" target="_self">Login</a>
+                   <div id="but1"><button type="button"  class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal">
+                       Login</button>
+                       <div class="modal fade" id="exampleModal" role="dialog" data-backdrop="false">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Please Login</h5>
+                              <button type="button" class="close" data-dismiss="modal" >&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="rows">
+                                <div class="cols">
+                            <label class="label" for="username">Username:</label>
+                            <input class="input" type="text" name="username" placeholder="Enter Username" autocomplete="on"></div><br/><br/>
+                            <div class="cols">
+                            <label class="label"  for="password">Password:</label>
+                            <input class="input" type="password" name="password" placeholder="Enter Password">
+                            </div></div></div>
+                            <div class="modal-footer">
+                              
+                              <button type="button" class="btn btn-primary" id="log1">Login</button>
+                            </div>
+                        
+                          </div>
+                        </div>
+                      </div>
                    <br/>
-                   
+                </div>
                     
                 </div>
                 
            
             <div id="cdiv">
-                <div id="search"><input type="text1" id="" placeholder="City"/></div><br/>
+                <div id="search"><input type="text1" id="input1" placeholder="City"/></div><br/>
                 <div id="card">
                <div class="con1" > <a href="list.html" target="_self">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" id="img1" height="150px" width="150px">
@@ -43,12 +70,38 @@
              </div>
             </div>  
             </div><br/>
-             <div id="view"><a href="index.html" style="color: black;">View more &gt&gt </a></div>
+             <div id="view"><a href="index.html"><button  type="button" class="btn btn-secondary"> View more &gt&gt </button></a></div>
         </div>
             
                 <div id="footer">
                     <div id="contact">
-                  <a href="contact.html" target="_self">Contact Us</a></div>
+                        <button type="button"  class="btn btn-info btn-sm" data-toggle="modal" data-target="#example1Modal">
+                            Contact Us</button>
+                            <div class="modal fade" id="example1Modal" role="dialog" data-backdrop="false">
+                             <div class="modal-dialog">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <h5 class="modal-title" id="exampleModalLabel">Get in touch</h5>
+                                   <button type="button" class="close" data-dismiss="modal" >&times;</button>
+                                 </div>
+                                 <div class="modal-body">
+                                     Thank you for reaching out!!!<br/>
+                                     Please enter your email and we will get back to you.
+                                     <br/><br/>
+                                 <label for="email">Email:</label>
+                                 <input type="email" name="email" placeholder="Enter your email id" autocomplete="on" required><br/>
+                                 
+                                 </div>
+                                 <div class="modal-footer">
+                                   
+                                   <button type="button" class="btn btn-primary" >Submit</button>
+                                 </div>
+                             
+                               </div>
+                             </div>
+
+                </div>
+              </div>
                   <div id="text">© 2020 ROOM SEARCH PVT LTD</div>
  
                   <div id="social">

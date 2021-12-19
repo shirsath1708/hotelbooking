@@ -32,7 +32,7 @@ body{
     width: 60px;
     margin-left: 2%;
 }
-#log{
+#but1{
     margin: 2%;
     
 }
@@ -74,7 +74,7 @@ body{
 }
 
 #cdiv{
-    height: 120%;
+    height: 180%;
     width: 100%;
     margin-top: 100px;
   
@@ -103,10 +103,40 @@ body{
     float:left;
     display: flex;
     justify-content: flex-start;
+    
 }
-#map-view{
-    display: none;
-}
+
 .info{
     margin-left: 15px;
+}
+.rows{
+    width: 100%;
+    display: block;
+}
+.cols{
+    width: 100%;
+    display: inline-block;
+}
+.label{
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+    
+}
+.input{
+    width: 50%;
+    float: right;
+    margin-right: 40px;
+}
+#log1{
+    margin: 0 auto;
+}
+#city3:hover{
+    background-color: rosybrown;
+}
+#city2:hover{
+    background-color: rosybrown;
+}
+#city1:hover{
+    background-color: rosybrown;
 }

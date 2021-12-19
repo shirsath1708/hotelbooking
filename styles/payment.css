@@ -31,7 +31,7 @@ body{
     width: 60px;
     margin-left: 2%;
 }
-#log{
+#but1{
     margin: 2%;
     
 }
@@ -103,4 +103,22 @@ a:link{
 }
 b{
     font-family: cursive;
+}
+.rows{
+    width: 100%;
+    display: block;
+}
+.cols{
+    width: 100%;
+    display: inline-block;
+}
+.label1{
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+.input1{
+    width: 50%;
+    float: right;
+    margin-right: 40px;
 }
