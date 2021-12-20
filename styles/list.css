@@ -140,3 +140,9 @@ body{
 #city1:hover{
     background-color: rosybrown;
 }
+.checked{
+    color: orange;
+}
+.fa-star-half-o{
+    color: orange;
+}

@@ -89,14 +89,7 @@ a:link{
 #description{
     margin-top: 130px;
 }
-#img{
-    border: 1px solid black;
-    
-    margin-left: 20px;
-    flex-grow: 3;
-    display: flex;
-    justify-content: center;
-}
+
 #form{
    
     padding: 20px;
@@ -109,12 +102,38 @@ a:link{
     justify-content: center;
     
 }
-#img img{
+#demo{
+    border: 1px solid black;
+    
+    margin-left: 20px;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+}
+#img{
     height: 350px;
-    width: 350px;
+    width: 450px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 20px;
 
 }
-
+#img img{
+    width: 100%;
+}
+#prev{
+    align-self: center;
+}
+#prev a{
+    color: rosybrown;
+    font-size: 55px;
+    text-decoration: none;
+}
+#next a{
+    color: rosybrown;
+    font-size: 55px;
+    text-decoration: none;
+}
 h5{
     font-family: cursive;
 }
@@ -158,5 +177,7 @@ h5{
     float: right;
     margin-right: 40px;
 }
-
+.checked{
+    color: orange;
+}
     
